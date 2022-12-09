@@ -6,10 +6,18 @@ class Talker():
     def __init__(self):
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
+<<<<<<< HEAD
 rclpy.init()
 node = Node("talker")
 talker = Talker()
 
+=======
+
+rclpy.init()
+node = Node("talker")
+talker = Talker()
+ 
+>>>>>>> master
 def cb():
     msg = Int16()
     msg.data = talker.n
