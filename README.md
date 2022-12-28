@@ -1,7 +1,8 @@
 # mypkg
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
-仮talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
+仮
+(詳使い方へ→)talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
 
 ## 必要なソフトウェア
 * Python 3.10
@@ -15,7 +16,7 @@ $ mkdir -p ros2_ws/src
 $ cd ~/ros2_ws/src
 ```
 
-* `git clone`を使って本パッケージをダウンロードする。
+* `git clone`を使ってパッケージをダウンロードする。
 ```
 $ git clone https://github.com/rikuhotakeda/mypkg
 ```
@@ -27,7 +28,7 @@ source ~/ros2_ws/install/local_setup.bash
 ```
 
 ### 実行例
-* ros2_wsのディレクトリに移動する。
+ros2_wsのディレクトリに移動する。
 ```
 cd ~/ros2/src
 ```
@@ -54,3 +55,4 @@ $ ros2 launch mypkg talk_listen.launch.py
 (Ctrl+cで終了)
 ```
 
+## 権利表記
