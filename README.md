@@ -1,8 +1,10 @@
-# mypkg
+# title
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
 仮
 (詳使い方へ→)talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
+
+* ros2のパッケージです。
 
 ## 必要なソフトウェア
 * Python 3.10
