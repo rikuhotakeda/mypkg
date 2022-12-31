@@ -1,7 +1,11 @@
-# title
+# 0.5秒間隔タイマー
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
-talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
+* 0.5秒間隔で1ずつカウントアップすることができます。
+
+talkerが数字をカウントしてInt16型のメッセージをトピック(/countup)を通じて送信する。listenerは/countupを通じてメッセージを受け取り標準出力する。
+
+（talkerとlistener間の）
 
 * ros2のパッケージです。
 
