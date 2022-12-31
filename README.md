@@ -1,8 +1,7 @@
 # title
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
-仮
-(詳使い方へ→)talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
+talkerノードからcountupというトピックで数字のメッセージをlistenerノードへ受け渡しする。
 
 * ros2のパッケージです。
 
@@ -57,10 +56,11 @@ $ ros2 launch mypkg talk_listen.launch.py
 (Ctrl+cで終了)
 ```
 
-## 権利表記
+## 貢献者
 * [Ryuichi Ueda](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 このパッケージのコードは、本人の許可を得て自身の著作としたものです。
 
-* このソフトウェアパッケージは、[3条項BSDライセンス](https://github.com/rikuhotakeda/mypkg/blob/master/RICENSE)の下、再頒布および使用が許可されます。
+## ライセンス
+* [BSD 3-Clause License](https://github.com/rikuhotakeda/mypkg/blob/master/RICENSE)
 
 * @ 2022 Rikuho Takeda
