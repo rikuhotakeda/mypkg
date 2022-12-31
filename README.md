@@ -58,7 +58,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## 貢献者
-* [Ryuichi Ueda](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* [Ryuichi Ueda](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
 このパッケージのコードは、本人の許可を得て自身の著作としたものです。
 
 ## ライセンス
