@@ -32,7 +32,7 @@ source ~/ros2_ws/install/local_setup.bash
 ### 実行例
 ros2_wsのディレクトリに移動する。
 ```
-cd ~/ros2/src
+cd ~/ros2_ws
 ```
 
 * [talker](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/talker.py)と[listener](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/listener.py)の実行例
