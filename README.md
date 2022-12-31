@@ -8,7 +8,7 @@ talkerが数字をカウントしてInt16型のメッセージをトピック(/c
 ## 必要なソフトウェア
 * Python 3.10
 * Ubuntu 22.04.1 LTS
-   * ROS2 humble
+   * ROS2 Humble
 
 ## 使い方
 ### 環境準備
