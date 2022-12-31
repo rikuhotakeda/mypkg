@@ -12,7 +12,7 @@ talkerが数字をカウントしてInt16型のメッセージをトピック(/c
 
 ## 使い方
 ### 環境準備
-* パッケージのインスト―ル
+* パッケージのインスト―ル  
 ワークスペースを作成し移動します。
 ```
 $ mkdir -p ros2_ws/src
@@ -24,7 +24,7 @@ $ cd ~/ros2_ws/src/
 $ git clone https://github.com/rikuhotakeda/mypkg
 ```
 
-* ビルド作業
+* ビルド作業  
 パッケージを利用可能にするため、~/.bashrcの末尾に以下の2行を追加します。
 ```
 source ~/ros2_ws/install/setup.bash
