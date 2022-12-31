@@ -1,17 +1,14 @@
 # 0.5秒間隔カウントアップタイマー
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
-* 0.5秒間隔で1ずつカウントアップすることができます。
+* 0.5秒間隔で1ずつ数字をカウントアップします。
 
 talkerが数字をカウントしてInt16型のメッセージをトピック(/countup)を通じて送信する。listenerは/countupを通じてメッセージを受け取り標準出力する。
 
-（talkerとlistener間の）
-
-* ros2のパッケージです。
-
 ## 必要なソフトウェア
 * Python 3.10
-* Ubuntu 22.04
+* Ubuntu 22.04.1 LTS
+* ROS2
 
 ## 使い方
 ### 環境準備
