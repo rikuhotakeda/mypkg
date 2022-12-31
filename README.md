@@ -1,8 +1,8 @@
 # 0.5秒間隔カウントアップタイマー
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
-* 0.5秒間隔で1ずつ数字をカウントアップします。
-
+* 0.5秒間隔で1ずつ数字をカウントアップします。  
+  
 talkerが数字をカウントしてInt16型のメッセージをトピック(/countup)を通じて送信する。listenerは/countupを通じてメッセージを受け取り標準出力する。
 
 ## 必要なソフトウェア
