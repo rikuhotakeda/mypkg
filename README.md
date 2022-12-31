@@ -12,27 +12,36 @@ talkerが数字をカウントしてInt16型のメッセージをトピック(/c
 
 ## 使い方
 ### 環境準備
-* ワークスペースを作成し移動する。
+* パッケージのインスト―ル
+ワークスペースを作成し移動します。
 ```
 $ mkdir -p ros2_ws/src
-$ cd ~/ros2_ws/src
+$ cd ~/ros2_ws/src/
 ```
 
-* `git clone`を使ってパッケージをダウンロードする。
+`git clone`を使いパッケージをインストールを行って下さい。
 ```
 $ git clone https://github.com/rikuhotakeda/mypkg
 ```
 
-* パッケージを利用可能にするため、~/.bashrcの末尾に以下の2行を追加する。
+* ビルド作業
+パッケージを利用可能にするため、~/.bashrcの末尾に以下の2行を追加します。
 ```
 source ~/ros2_ws/install/setup.bash
 source ~/ros2_ws/install/local_setup.bash
 ```
 
-### 実行例
-ros2_wsのディレクトリに移動する。
+ros2_wsに移動してビルドを行って下さい。
 ```
-cd ~/ros2_ws
+$ cd ~/ros2_ws/
+$ colcon build
+$ source ~/.bashrc
+```
+
+### 実行例
+ros2_wsに移動する。
+```
+cd ~/ros2_ws/
 ```
 
 * [talker](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/talker.py)と[listener](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/listener.py)の実行例
