@@ -1,4 +1,4 @@
-# 0.5秒間隔タイマー
+# 0.5秒間隔カウントアップタイマー
 ![test](https://github.com/rikuhotakeda/mypkg/actions/workflows/test.yml/badge.svg)
 
 * 0.5秒間隔で1ずつカウントアップすることができます。
