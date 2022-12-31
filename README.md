@@ -37,8 +37,8 @@ cd ~/ros2_ws
 
 * [talker](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/talker.py)と[listener](https://github.com/rikuhotakeda/mypkg/blob/master/mypkg/listener.py)の実行例
 ```
-端末１$ ros2 run mypkg talker.py
-端末２$ ros2 run mypkg lisetener.py
+端末１$ ros2 run mypkg talker
+端末２$ ros2 run mypkg lisetener
 [INFO] [1672236118.622220183] [listener]: Listen: 36
 [INFO] [1672236119.093162568] [listener]: Listen: 37
 [INFO] [1672236119.593843579] [listener]: Listen: 38
