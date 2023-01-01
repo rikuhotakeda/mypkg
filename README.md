@@ -20,7 +20,7 @@ $ mkdir -p ros2_ws/src
 $ cd ~/ros2_ws/src/
 ```
 
-`git clone`を使いパッケージをインストールを行って下さい。
+`git clone`を使いパッケージのインストールを行って下さい。
 ```
 $ git clone https://github.com/rikuhotakeda/mypkg
 ```
